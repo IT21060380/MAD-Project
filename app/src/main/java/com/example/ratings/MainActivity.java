@@ -31,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 reference = FirebaseDatabase.getInstance().getReference().child("Feedbacks");
 
                 try{
-
-
-
                     if(TextUtils.isEmpty(feedback.getText().toString()))
                         Toast.makeText(getApplicationContext(), "Field cannot be left blank", Toast.LENGTH_SHORT).show();
 

@@ -10,6 +10,7 @@ public class addcard {
     public addcard() {
     }
 
+
     public String getType() {
         return type;
     }

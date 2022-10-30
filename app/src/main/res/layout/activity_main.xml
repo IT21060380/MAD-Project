@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="70dp">
+
+        <include
+            android:id="@+id/toolbarEvents"
+            layout="@layout/toolbar_event"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            android:animateLayoutChanges="false"
+            android:background="#FDFDFD"
+            android:backgroundTint="#FFFFFF"
+            android:fadeScrollbars="false"
+            android:translationY="15dp"
+            app:cardCornerRadius="20dp"
+            app:contentPadding="10dp">
+
+            <Button
+                android:id="@+id/btnHighTeaBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#3f51b5"
+                android:text="@string/btnHighTeaBook"
+                android:translationX="130dp"
+                android:translationY="490dp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/hightea_img"
+                android:layout_width="wrap_content"
+                android:layout_height="216dp"
+                android:contentDescription="@string/highTea_img"
+                android:scaleType="fitXY"
+                android:translationY="45dp"
+                app:srcCompat="@drawable/hightea_img" />
+
+            <TextView
+                android:id="@+id/highteaDes"
+                android:layout_width="368dp"
+                android:layout_height="108dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/highteaDes"
+                android:textSize="18sp"
+                android:translationX="15dp"
+                android:translationY="280dp" />
+
+            <TextView
+                android:id="@+id/highTeaTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/highteaHours"
+                android:textSize="18sp"
+                android:translationX="55dp"
+                android:translationY="390dp" />
+
+            <TextView
+                android:id="@+id/highTeaTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:fontFamily="cursive"
+                android:text="@string/highteaTitle"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:translationX="150dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <TextView
+                android:id="@+id/eventPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/highteaPrice"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:translationX="100dp"
+                android:translationY="440dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

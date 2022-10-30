@@ -51,6 +51,7 @@ public class RoomBook extends AppCompatActivity {
                         room1.setGuestNo(Integer.parseInt(adultNo.getText().toString().trim()));
                         room1.setGuestNo(Integer.parseInt(childNo.getText().toString().trim()));
 
+
                         reference.child("Room1").setValue(room1);
 
                         Toast.makeText(getApplicationContext(), "Booking made successfully", Toast.LENGTH_SHORT).show();

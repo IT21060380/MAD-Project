@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Rooms</string>
+    <string name="titleBooking">Booking</string>
+    <string name="backarrow">backarrow</string>
+    <string name="titleEvents">Rooms</string>
+    <string name="titleRooms">Rooms</string>
+    <string name="titleSummary">Summary</string>
+    <string name="btnDeluxeBook">Book Now</string>
+    <string name="roomPrice">Rs 150000/- per night</string>
+    <string name="titleMyBookings">My Bookings</string>
+    <string name="btnMyBookings">View My Bookings</string>
+    <string name="successMsg">Booking successfully made!</string>
+    <string name="hint_noofguests">1</string>
+    <string name="roomTitle">Deluxe</string>
+    <string name="textCheckin">Check-in</string>
+    <string name="btn_CofirmBooking">Confirm Booking</string>
+    <string name="text_checkout">Check-out</string>
+    <string name="text_noofGuests">Number of Adults</string>
+    <string name="title_price">Rs 20000 per night</string>
+    <string name="date">date</string>
+    <string name="btn_confirm_booking">Confirm Booking</string>
+    <string name="titleEventDate">Check-In Date:</string>
+    <string name="titleCheckOut">Check-Out Date:</string>
+    <string name="titleGuest_no">Number of Guests:</string>
+    <string name="btnUpdate">Update Booking</string>
+    <string name="btnCancel">Cancel Booking</string>
+    <string name="deluxeroomImg">deluxeroomImg</string>
+    <string name="noOfChildren">Number of Children</string>
+</resources>

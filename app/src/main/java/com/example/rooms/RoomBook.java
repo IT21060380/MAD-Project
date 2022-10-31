@@ -48,8 +48,8 @@ public class RoomBook extends AppCompatActivity {
                     else{
                         room1.setCheck_in(check_in.getText().toString().trim());
                         room1.setCheck_out(check_out.getText().toString().trim());
-                        room1.setGuestNo(Integer.parseInt(adultNo.getText().toString().trim()));
-                        room1.setGuestNo(Integer.parseInt(childNo.getText().toString().trim()));
+                        room1.setAdultNo(Integer.parseInt(adultNo.getText().toString().trim()));
+                        room1.setChildNo(Integer.parseInt(childNo.getText().toString().trim()));
 
 
 

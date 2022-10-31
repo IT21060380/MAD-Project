@@ -26,4 +26,7 @@
     <string name="btnCancel">Cancel Booking</string>
     <string name="deluxeroomImg">deluxeroomImg</string>
     <string name="noOfChildren">Number of Children</string>
+    <string name="bed_king_sized_or_twin">Bed : King-sized or Twin</string>
+    <string name="technology_flat_screen_tv_with_cable_satellite_and_wifi">Technology: Flat screen TV with cable/ satellite and Wifi</string>
+    <string name="bathroom_bathroom">Bathroom : bathroom</string>
 </resources>

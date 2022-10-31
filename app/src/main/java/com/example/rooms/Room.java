@@ -3,27 +3,30 @@ package com.example.rooms;
 public class Room {
     String check_in;
     String check_out;
-    int guestNo;
+    int adultNo;
+    int childNo;
 
     public Room() {
     }
 
-    public int getGuestNo() {
-        return guestNo;
-    }
 
-    public void setGuestNo(int guestNo) {
-        this.guestNo = guestNo;
-    }
-
-    public Room(String check_in, String check_out, int guestNo) {
+    public Room(String check_in, String check_out, int adultNo, int childNo) {
         this.check_in = check_in;
         this.check_out = check_out;
-        this.guestNo = guestNo;
+        this.adultNo = adultNo;
+        this.childNo = childNo;
     }
 
     public String getCheck_out() {
         return check_out;
+    }
+
+    public int getChildNo() {
+        return childNo;
+    }
+
+    public void setChildNo(int childNo) {
+        this.childNo = childNo;
     }
 
     public void setCheck_out(String check_out) {
@@ -36,5 +39,14 @@ public class Room {
 
     public void setCheck_in(String check_in) {
         this.check_in = check_in;
+    }
+
+    public int getAdultNo() {
+        return adultNo;
+    }
+
+    public void setAdultNo
+            (int adultNo) {
+        this.adultNo = adultNo;
     }
 }
